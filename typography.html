@@ -1,0 +1,207 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tank Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mining Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// Bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="banner-content">
+			<div class="logo">
+                <a href="index.html">Tank Game</a>
+			</div>
+			<div class="top-nav">
+				<span class="menu">MENU</span>
+                <ul class="nav1 cl-effect-15">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html" data-hover="About">About</a></li>
+                    <li><a href="services.html" data-hover="AI">AI</a></li>
+                    <li><a href="typography.html" data-hover="Rules">Rules</a></li>
+                    <li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
+                    <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                </ul>
+				<!-- script-for-menu -->
+					<script>
+						 $( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						// Animation complete.
+							});
+							});
+					</script>
+				<!-- /script-for-menu -->
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+    <!-- //content -->
+    <div class="welcome">
+        <div class="welcome-left">
+            <h3>Basic rules for the Game</h3>
+            <h4>Introduction</h4>
+
+            <p style="color:black">
+                <b>
+                    The main objects of the game are battle tanks. This game is intended to be played by the multiple players.
+                    Each player is a client application created by different team. We, Team Tankhitter responsible for creating 
+                    one of the cilent application. Each client application handling a particular tank in the game instance.
+                </b>
+            </p>
+        </div>
+        <div class="welcome-right">
+
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="welcome offer">
+        <div class="welcome-left offer-left">
+            <h2>Objects</h2>
+            <h4>Bricks</h4>
+            <p style="color:black">
+                <b>
+                    Statics blocks of bricks can be seen in the user interface of the game.
+                    They are considered to be obstacles. Players cannot go through unless it is broken.
+                </b>
+            </p>
+            <h4>Water</h4>
+            <p style="color:black">
+                <b>
+                    Tank cannot go through water blocks. But you can shoot through them. Bullets will pass through water blocks.
+                </b>
+            </p>
+            
+            <h4>Stones</h4>
+            <p style="color:black">
+                <b>
+                    Blocks of stones can be identified in the user interface of the game.
+                     They are considered as obstacles too. They cannot be destroyed by shooting or any other activity
+                </b>
+            </p>
+
+
+
+                <div class="clearfix"> </div>
+        </div>
+        <div class="welcome-right offer-right">
+
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <div class="clearfix"> </div>
+    <div class="about-top">
+        <div class="about-info">
+    
+        </div>
+        <div class="welcome offer about">
+            <div class="welcome-left offer-left about-left">
+                <h4>Coin Packs</h4>
+
+                <p style="color:black">
+                    <b>
+                    Coin packs will be appear on the screen. Players are suppose to collect those coins packs.
+                    Players can collect them by moving to the position of the coin pack before it dissaperas.
+                    Coin packs will automaticlly dissapere after its life time over. Coin packs will generate on screen
+                    due to two reasons. They are Random treasures or spoils of war.
+               </b>
+                </p>
+                <h4>Life Packs</h4>
+
+                <p style="color:black">
+                    <b>
+                    Life packs will also appear on the screen. Players are suppose to collect those life packs.
+                    Players can collect them by moving to the position of the coin pack before it dissaperas.
+                    Life packs will automaticlly dissapere after its life time over. Collecting a life pack will 
+                    increase the health of the player 20% of the initial value. It is possible to have a greater health 
+                    than the health value at the begining of the game.
+                </b>
+                        </p>
+            </div>
+            <div class="welcome-right about-right">
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+    <div class="welcome new services-grid">
+        <div class="welcome-left new-left services-left">
+            <h4>Breaking bricks</h4>
+            <p style="color:black">
+                <b>
+                    Player can breaks the brick blocks by shooting to them. Four shots (bullets) will be sufficient to destroy the a wall completely.
+                    After destroying, it will act as a normal blank block.
+                </b>
+           </p>
+            <h4>Shooting</h4>
+            <p style="color:black">
+                <b>
+                    Players can shoot bullets. If a bullet hit another players tank, its health will be reduced by 10% of the initial health.
+                    A tank is considered to be dead if it reach health 0%. Its collected coins will be droped at the point of death. But its 
+                    coin count will remain unchanged. Droped coin pack can be collected by any other player. 25% percent of dead players points will be added 
+                    to the killer. Droped coin pack will also act as a normal coin pack.
+                </b>
+            </p>
+            <h4>Death</h4>
+            <p style="color:black">
+                <b>
+                    A players death will occur due to some reasons.
+                    <br><br>
+                    1. Trying to cross a water block.<br>
+                    2. Reaching the health level to 0%.<br>
+                    <br>
+                    When a player die because he try to go through a water block,  no body will be credited since no body is a killer. 
+                    In that case no coin packs will be droped by the dead plyer. But dead clients get their coin count set to zero nevertheless.
+
+
+           </b>  
+            </p>
+            <h4>Penalties</h4>
+            <p style="color:black">
+                <b>
+                    If a client hits a brick block or a stone block, a fixed amount of points will be deducted from the clients. This will occur in each turn.
+                    If a client keeps hitting on such a obstacle, its points will be reducing continuously.
+                </b>
+            </p>
+        </div>
+        <div class="welcome-right new-right services-right-img">
+
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-- //content -->
+        
+	<!-- footer -->
+	<div class="footer">
+		<!-- container -->
+		<div class="container">
+			<div class="footer-info">
+				<h3>Contact</h3>
+				<p class="f-address">Department of Computer Science and Engineering, <br>
+Faculty of Engineering <br>
+University of Moratuwa </p>
+				<ul>
+					<li><a href="https://twitter.com/TankHitter" class="facebook"> </a>
+					<li><a href="https://www.facebook.com/TankSamDimu/" class="facebook twitter"> </a>
+					
+		    </ul>
+				<p class="copyright"> © 2015 Mining. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			</div>	
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //footer -->
+</body>	
+</html>
